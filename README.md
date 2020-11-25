@@ -19,8 +19,8 @@ The internal code is written in Python. Basic ML libraries were used to create t
 Project is created with:
 * python: 3.7.6
 * flask: 1.1.2
-* numpy: 1.19.2
-* pandas: 1.1.3
+* numpy: 1.19.3
+* pandas: 1.1.4
 * scikit-learn: 0.23.2
 * docker: 19.
 	
