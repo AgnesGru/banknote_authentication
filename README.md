@@ -23,7 +23,7 @@ Project is created with:
 * numpy: 1.19.3
 * pandas: 1.1.4
 * scikit-learn: 0.23.2
-* docker: 19.
+* docker: 19.03.13
 	
 ## Setup
 To run this project go to:
