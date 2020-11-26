@@ -12,8 +12,9 @@ Authentication of Bank Notes, project created to use Docker software.
 
 ## Introduction
 
-This project was created to improve my qualifications as a Python developer. The main goal is to learn how Docker works.
-The internal code is written in Python. Basic ML libraries were used to create the model. The framework used to develop the application is Flask.
+This project was created to improve my qualifications as a Python Developer. The main goal is to learn how Docker works.
+The internal code is written in Python. Basic ML libraries were used to create the model. The framework used to develop the application is Flask. 
+Deployed on Heroku Platform.
 	
 ## Technologies
 Project is created with:
@@ -27,8 +28,8 @@ Project is created with:
 ## Setup
 To run this project go to:
 
-*  
-* 
+* https://banknoteauthentic-api.herokuapp.com/
+* https://github.com/AgnesGru/banknote_authentication/blob/main/app.py
 
 ## Sources
 This app is inspired by Krish Naik project „Docker tutorial”
