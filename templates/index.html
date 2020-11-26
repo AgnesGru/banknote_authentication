@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+    <title>Banknote Authentication</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="title">Enter values to check if Banknote is real!</h2>
+        <br/>
+        <br/>
+            <!-- Main Input For Receiving Query to our ML -->
+        <form action="{{ url_for('predict')}}"method="post">
+            <input type="text" name="variance" placeholder="Variance" required="required" />
+            <input type="text" name="skewness" placeholder="Skewness" required="required" />
+            <input type="text" name="curtosis" placeholder="Curtosis" required="required" />
+            <input type="text" name="entropy" placeholder="Entropy" required="required" />
+
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form>
+
+       <br>
+       <br>
+       {{ result }}
+
+    </div>
+
+</body>
+</html>
