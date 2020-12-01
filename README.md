@@ -33,6 +33,7 @@ To run this project go to:
 
 ## Sources
 This app is inspired by Krish Naik project „Docker tutorial”
+Thanks to Pawel Gruszecki for pushing me when I stuck with Docker
 
 ## Status
 Project is: in progress 
