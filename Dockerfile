@@ -1,17 +1,18 @@
 
-FROM ubuntu:20.04
+FROM python:3.8
 
-RUN apt update -y && \
-apt install -y python3-pip python3-dev
+WORKDIR /app
 
-COPY . /usr/app/
+COPY requirements.txt ./
 
-EXPOSE 5000
+RUN pip install -r requirements.txt --trusted-host pypi.org --trusted-host files.pythonhosted.org
 
-WORKDIR /usr/app/
+COPY . /app
 
-RUN pip3 install -r requirements.txt
+EXPOSE 8000
 
 ENTRYPOINT ["python3"]
 
 CMD [ "app.py" ]
+
+# CMD [ "python3", "app.py" ]
