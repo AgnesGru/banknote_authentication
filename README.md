@@ -32,7 +32,7 @@ To run this project go to:
 * https://github.com/AgnesGru/banknote_authentication/blob/main/app.py
 
 ## Sources
-This app is inspired by Krish Naik project „Docker tutorial”. /nSpecial thanks to Pawel Gruszecki for pushing me forward when I stuck with Docker
+This app is inspired by Krish Naik project „Docker tutorial”. <br/>Special thanks to Pawel Gruszecki for pushing me forward when I stuck with Docker
 
 ## Status
 Project is: in progress 
